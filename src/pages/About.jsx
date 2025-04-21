@@ -1,11 +1,12 @@
-import React from "react";
+import React from 'react';
 
 const About = () => {
   return (
-    <div className="container mx-auto text-center py-16">
-      <h1 className="text-4xl font-bold">About Me</h1>
-      <p className="mt-4 text-lg">
-        I’m a front-end web developer with a passion for creating interactive and user-friendly applications.
+    <div className="p-10 bg-gray-100 min-h-screen">
+      <h2 className="text-4xl font-bold text-center text-gray-800">About Me</h2>
+      <p className="mt-6 text-lg text-gray-700">
+        I am a first-year student at Scaler School of Technology
+        I am passionate about coding, web development, and always eager to learn new technologies.
       </p>
     </div>
   );

@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 const Home = () => {
   return (
-    <div className="container mx-auto text-center py-16">
-      <h1 className="text-4xl font-bold">Welcome to My Portfolio</h1>
-      <p className="mt-4 text-lg">I'm a passionate web developer.</p>
+    <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
+      <h1 className="text-5xl font-bold text-gray-800">Welcome to My Portfolio</h1>
+      <p className="text-xl text-gray-600 mt-4">I'm Mathan Kalra, a passionate developer!</p>
     </div>
   );
 };
